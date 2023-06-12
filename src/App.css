@@ -109,3 +109,151 @@
 .driver-car span {
   font-weight: bold;
 }
+.dice {
+  width: 200px;
+}
+.numbers-table {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.even {
+  background-color: red;
+  color: white;
+}
+
+.odd {
+  background-color: white;
+  color: black;
+}
+.profile-img {
+  width: 60px;
+}
+.facebook-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.profile-card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.profile-card .is-student {
+  color: red;
+}
+.facebook-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-buttons {
+  margin-bottom: 20px;
+}
+
+.country-button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.country-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.profile-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-card {
+  width: 200px;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.profile-card.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.profile-details {
+  text-align: center;
+}
+
+.profile-details h2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.profile-details p {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.sort-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
